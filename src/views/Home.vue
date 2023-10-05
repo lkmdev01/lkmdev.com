@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import TypesClientes from '../components/TypesClientes.vue';
 import TechList from '../components/TechList.vue';
 import MyFooter from '../components/MyFooter.vue';
+import MyFQA from '../components/MyFQA.vue';
 
 </script>
 
@@ -25,7 +26,7 @@ import MyFooter from '../components/MyFooter.vue';
     </nav>
     <section class="beneficios w-full">
       <div class="container-lg py-20">
-        <h3>Oque agregamos ao seu negócio</h3>
+        <h3 class="text-5xl pb-10">Oque agregamos ao seu negócio</h3>
         <div class="group__card flex flex-wrap justify-center gap-5">
           <div class="card w-96 bg-blue-800 rounded-md drop-shadow-md">
             <font-awesome-icon :icon="faCoffee" />
@@ -122,23 +123,12 @@ import MyFooter from '../components/MyFooter.vue';
         </div>
       </div>
     </section>
-    <section class="w-full" id="fqa">
-      <!-- Fazer um slider com os cards -->
-    </section>
+    <MyFQA></MyFQA>
   </main>
   <MyFooter></MyFooter>
 </template>
 
 <style scoped>
-.sombra-bottom-big {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 41rem;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #2F3B5D 90%, #2F3B5D 100%);
-}
-
 main#main1 {
   background-color: #2F3B5D;
 }
@@ -154,31 +144,10 @@ main#main1 nav>div ul {
   border: 1px solid rgba(255, 255, 255, 0.336);
 }
 
-.container {
-  position: relative;
-  max-width: 1000px;
-  margin: 0 auto;
-}
 
-.container-md {
-  position: relative;
-  max-width: 1350px;
-  margin: 0 auto;
-}
-
-.container-lg {
-  position: relative;
-  max-width: 1800px;
-  margin: 0 auto;
-}
 
 section.beneficios {
   margin: 40px 0;
-}
-
-.beneficios h3 {
-  font-size: 26px;
-  color: white;
 }
 
 .group__card {

@@ -85,61 +85,7 @@ export default defineComponent({
 });
 </script>
 
-<style scoped> .sombra-bottom-big {
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-   height: 41rem;
-   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #2F3B5D 90%, #2F3B5D 100%);
- }
-
- .sombra-bottom-medium {
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-   height: 14rem;
-   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #2F3B5D 90%, #2F3B5D 100%);
- }
-
- .sombra-bottom-small {
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-   height: 5rem;
-   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #2F3B5D 90%, #2F3B5D 100%);
- }
-
- .sombra-top-big {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 41rem;
-   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, black 90%, black 100%);
- }
-
- .sombra-top-medium {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 14rem;
-   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, black 90%, black 100%);
- }
-
- .sombra-top-medium {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 14rem;
-   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, black 90%, black 100%);
- }
-
- header {
+<style scoped> header {
    background-color: #2f3b5d;
    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
