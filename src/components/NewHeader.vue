@@ -33,7 +33,9 @@
                 {{ slide.title }}</h2>
               <p class="max-w-lg mx-auto px-2 pt-2">{{ slide.text }}</p>
               <a :href="slide.link__button" target="_blank">
-                <button class="shadow-lg py-2 px-10 rounded-full">{{ slide.text__button }}</button>
+                <!-- <button class="shadow-lg py-2 px-10 rounded-full"></button> -->
+                <button class="btn bg-myblue hover:bg-myblue border-gray-500 hover:border-gray-600 shadow-lg">{{
+                  slide.text__button }}</button>
               </a>
             </div>
           </Slide>

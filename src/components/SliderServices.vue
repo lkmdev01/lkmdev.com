@@ -1,5 +1,5 @@
 <template>
-  <div class="services">
+  <div class="services py-20">
     <div class="carousel-container">
       <Carousel :items-to-show="1" :autoplay="7200" :wrap-around="true">
         <Slide v-for="(slide, index) in slides" :key="index">
@@ -7,7 +7,8 @@
             <div class="text-container">
               <h2 class="pb-1 text-4xl">{{ slide.title }}</h2>
               <p class="mb-4">{{ slide.text }}</p>
-              <button class="shadow-lg py-2 px-10 rounded-full bg-green-900">{{ slide.button }}</button>
+              <button class="btn bg-gray-100 border-gray-800 text-myblue hover:bg-gray-300 shadow-lg">{{
+                slide.button }}</button>
             </div>
           </div>
         </Slide>

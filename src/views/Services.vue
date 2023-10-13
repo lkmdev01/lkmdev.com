@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-blue-800">
+  <header class="bg-myblue">
     <div class="container py-48 px-3 flex flex-wrap justify-center">
       <div class="
       content-text text-start max-w-2xl mr-auto">

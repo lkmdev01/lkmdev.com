@@ -16,7 +16,7 @@ export default defineComponent({
 
 <template>
     <section class="typesclientes">
-        <div class="container py-5">
+        <div class="container-sm pb-5">
             <h3 class="text-5xl pb-10">Quem são os nossos clientes</h3>
             <div class="group__card flex  space-x-4">
                 <div class="cardItem w-1/3 rounded-md drop-shadow-md">
@@ -32,7 +32,7 @@ export default defineComponent({
                         born and I will give.</p>
                 </div>
                 <div class="cardItem w-1/3 rounded-md drop-shadow-md">
-                    <img src="/img/empresario.jpg" alt="">
+                    <img src="/img/influencer.png" alt="">
                     <h5 class="pt-2 text-xl font-bold">Figura publica</h5>
                     <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
                         born and I will give.</p>
@@ -43,13 +43,6 @@ export default defineComponent({
 </template>
 
 <style scoped>
-.typesclientes .container {
-    position: relative;
-    width: 1000px;
-    padding: 40px 0;
-    margin: 0 auto;
-}
-
 .group__card {
     margin: 0 auto;
     padding: 20px;

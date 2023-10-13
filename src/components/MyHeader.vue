@@ -8,7 +8,7 @@
               <h2>{{ slide.title }}</h2>
               <p class="max-w-lg mx-auto px-2">{{ slide.text }}</p>
               <a :href="slide.link__button" target="_blank">
-                <button class="bg-blue-800 py-2 px-4 rounded">{{ slide.text__button }}</button>
+                <button class="bg-myblue py-2 px-4 rounded">{{ slide.text__button }}</button>
               </a>
             </div>
           </Slide>
